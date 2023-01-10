@@ -744,3 +744,87 @@ letter-spacing: 0.2px;
 color: #737373;
 padding: 13px 21px;
 }
+
+
+.owner-section{
+    background: rgba(244, 81, 30, 0.07);
+    display: flex;
+    flex-basis: 100%;
+    max-width: 100%;
+    /* padding-left: 50px; */
+}
+.owner-section .owner{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.owner-section .owner.video{
+    /* background-color: red; */
+    text-align: right;
+    position: relative;
+   
+}
+.owner-section .owner.text{
+    padding-left: 100px;
+    padding-top: 130px;
+}
+.owner-section .owner p{
+    font-weight: 400;
+font-size: 19px;
+line-height: 36px;
+color: #18191F;
+margin-bottom: 25px;
+}
+.owner.video .play{
+    position: absolute;
+    background-color: red;
+    left: 45%;
+    top: 45%;
+   background-color: #F4511E;
+   border-radius: 73.6px;
+padding: 34.8px 36.8px;
+}
+
+.owner-section .own-desc{
+    display:flex ;
+   gap: 20px;
+   align-items: center;
+   margin-bottom: 75px;
+}
+.name h4{
+    font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #F4511E;
+}
+.name h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    /* Text / Gray 900 */
+    
+    color: #18191F;
+
+}
+
+.icon{
+    /* background-color: red; */
+    display: flex;
+    gap: 12px;
+}
+.icon i.fa-circle{
+/* width: 20px; */
+font-size: 10px;
+color: #D9DBE1;
+/* background-color: darkblue; */
+}
+
+
+

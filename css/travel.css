@@ -416,15 +416,12 @@ color: #000000;
 .pagination{
     /* background-color: red; */
     
-    
+    text-align: center;
 
     padding: 25px 0 ;
 }
 .pagination a{
     text-decoration: none;
-    
-    
-
 letter-spacing: 0.1px;
 padding: 25px 20px;
 margin-left:-5px;
@@ -456,21 +453,28 @@ color: #FFFFFF;
 
 .room-section{
     /* background-color: red; */
-    padding: 110px 155px;
+    padding: 110px 180px;
+
+
 }
 .room-section .container{
     display: flex;
     gap: 65px;
+    padding-bottom: 110px;
     flex: 0 0 100%;
     max-width: 100%;
     justify-content: center;
+    /* background-color: 
+    #000000; */
 }
 .room-section .container .staggered-img, .room-text{
     /* background-color: red; */
     flex: 0 0 50%;
+
 }
 .room-section .container .room-text{
-    margin-right: 40px;
+    /* margin-right: 4
+    0px; */
     display: flex;
     flex-direction: column;
 
@@ -505,7 +509,7 @@ font-weight: 600;
 font-size: 18px;
 line-height: 20px;
 /* identical to box height, or 111% */
-
+;
 
 
 
@@ -638,9 +642,105 @@ text-align: center
 left:0%;
 color: #FFFFFF;
 }
+p.alone{
+    text-align: center;
+    font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+text-transform: capitalize;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #000000;
+margin-bottom: 37px;
+}
 
+/* Add Property */
+.add-property{
+    background: #FFFFFF;
+box-shadow: 0px 4px 63px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+padding: 45px 63px
+;
+}
+.add-property h3{
+    text-align: center;
+    font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height, or 114% */
 
+text-align: center;
+letter-spacing: 0.1px;
 
+color: #F4511E;
+margin-bottom: 65px
+;
+}
+form{
+    font-family: 'Inter', sans-serif;
 
+    /* background-color: red; */
+    display: flex;
+    max-width: 100%;
+    flex-basis: 100%;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+form div{
 
+    flex-basis: 31.4%; 
+    display: flex;
+    flex-direction: column;
+   
+}
+ div label{
+    font-weight: 600;
+font-size: 17px;
+line-height: 24px;
+margin-bottom: 5px;
+letter-spacing: 0.2px;
+color: #252B42;
+}
 
+div label span{
+    color: #F4511E;
+font-weight: 900;
+font-size: 18px;
+}
+form div input, select{
+    /* background-color: #000000; */
+    font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #737373;
+border: 7px solid red;
+background: #F9F9F9;
+border: 1px solid #E6E6E6;
+border-radius: 5px;
+padding: 4px 18px;
+}
+form div select{
+    padding: 9px 18px;
+  /* height: 40px; */
+  /* background-color: red; */
+  /* margin-top: 50px; */
+}
+.add-property div.description {
+    margin-top: 25px;
+    margin-bottom: 57px;
+}
+.add-property div.description   textarea{
+    /* background-color: red; */
+    width: 100%;
+margin-top: 5px;
+    background: #F9F9F9;
+border: 1px solid #E6E6E6;
+border-radius: 5px;
+min-height: 150px;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #737373;
+padding: 13px 21px;
+}

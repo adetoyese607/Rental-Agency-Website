@@ -89,9 +89,6 @@ padding: 20px;
     flex-basis: 50%;
     display: flex;
 
-
-    font-family: 'Inter';
-font-style: normal;
 font-weight: 700;
 font-size: 50px;
 line-height: 70px;
@@ -240,8 +237,7 @@ border-radius: 10px;
      /* background-color: red; */
 }
 .tile .tile-text{
-    font-family: 'Inter';
-font-style: normal;
+   
 font-weight: 600;
 font-size: 22px;
 line-height: 35px;
@@ -640,16 +636,10 @@ text-align: center
 ;
 /* identical to bo;x height, or 83% */
 left:0%;
-
-
-
-
-
-
-
 color: #FFFFFF;
-
 }
+
+
 
 
 
